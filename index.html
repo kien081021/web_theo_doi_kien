@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang theo dõi của Kiên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Lịch trình của Kiên</h1>
+    </header>
+
+    <main>
+        <section class="task-section">
+            <h2>Công việc hôm nay</h2>
+            <textarea placeholder="Nhập việc cần làm hôm nay..."></textarea>
+            <button onclick="saveTask()">Lưu</button>
+        </section>
+
+        <section class="expense-section">
+            <h2>Chi tiêu hôm nay</h2>
+            <textarea placeholder="Ghi chi tiêu hôm nay..."></textarea>
+            <button onclick="saveExpense()">Lưu</button>
+        </section>
+
+        <section class="note-section">
+            <h2>Ghi chú nhanh</h2>
+            <textarea placeholder="Ghi nhanh điều cần nhớ..."></textarea>
+            <button onclick="saveNote()">Lưu</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Kiên</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
